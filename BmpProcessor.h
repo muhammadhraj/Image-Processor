@@ -17,7 +17,6 @@
 #define BMPPROCESSOR_H
 
 struct BMP_Header {
-    //TODO:Finish struct
     char signature[2];
     int size;
     short reserved1;
@@ -26,7 +25,6 @@ struct BMP_Header {
 };
 
 struct DIB_Header{
-    //TODO:Finish struct
     int size;
     int width;
     int height;
