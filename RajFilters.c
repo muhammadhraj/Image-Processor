@@ -19,10 +19,6 @@
 #include "BmpProcessor.h"
 #include "PixelProcessor.h"
 
-//TODO: finish me
-
-//UNCOMMENT BELOW LINE IF USING SER334 LIBRARY/OBJECT FOR BMP SUPPORT
-//#include "BmpProcessor.h"
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -33,13 +29,10 @@
 #define BMP_DIB_HEADER_SIZE 40
 #define MAXIMUM_IMAGE_SIZE 4096
 
-//TODO: finish me
-
 
 ////////////////////////////////////////////////////////////////////////////////
 //DATA STRUCTURES
 
-//TODO: finish me
 struct blur_thread_info {
     int height;
     int width;
@@ -62,7 +55,6 @@ struct swiss_thread_info {
 ////////////////////////////////////////////////////////////////////////////////
 //MAIN PROGRAM CODE
 
-//TODO: finish me
 struct Pixel* average(struct Pixel** original, int i, int j, int height, int width){
     int num_valid = 0;
     int sum_red = 0;
