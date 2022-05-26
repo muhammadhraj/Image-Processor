@@ -15,7 +15,6 @@
 #define PIXELPROCESSOR_H
 
 struct Pixel{
-    //TODO:Finish struct
     int red;
     int green;
     int blue;
